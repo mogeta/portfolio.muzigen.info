@@ -7,5 +7,8 @@
         ]
       }
     }
+  },
+  "projects": {
+    "release": "portfolio-14ea4"
   }
 }
