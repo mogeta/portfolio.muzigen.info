@@ -1,6 +1,11 @@
-test
-<div *ngFor="let project of projects | async">
-  {{ project.title }}
-  {{project.summary}}
-  <pre  [innerHtml]="project.content"></pre>
+<div class="container">
+  <div class="notification">
+    muzigram.info
+  </div>
+  <div *ngFor="let project of projects | async">
+    {{ project.title }}
+    {{project.summary}}
+    <pre  [innerHtml]="project.content"></pre>
+  </div>
 </div>
+
