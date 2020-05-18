@@ -1,4 +1,6 @@
 test
 <div *ngFor="let project of projects | async">
   {{ project.title }}
+  {{project.summary}}
+  <pre  [innerHtml]="project.content"></pre>
 </div>

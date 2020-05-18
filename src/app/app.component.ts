@@ -9,7 +9,7 @@ import {FLContent} from 'ng-flamelink';
 export class AppComponent {
 
   public projects = this.content.valueChanges({
-    schemaKey: 'projects',
+    schemaKey: 'develop',
     // filters: [['category', '==', 'web']]
   });
 
