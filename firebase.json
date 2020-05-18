@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "muzigram",
+      "public": "dist/muzigram",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

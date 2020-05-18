@@ -117,8 +117,16 @@
               "devServerTarget": "muzigram:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "muzigram"
+    }
+  },
+  "defaultProject": "muzigram",
+  "cli": {
+    "analytics": "db10a49b-fbca-493a-bbf6-e1c2477075bb"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-14ea4": {
+      "hosting": {
+        "muzigram": [
+          "portfolio-14ea4"
+        ]
+      }
+    }
+  }
+}
