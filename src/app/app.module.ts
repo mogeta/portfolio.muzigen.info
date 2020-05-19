@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FlamelinkModule, FLContentModule, FLStorageModule } from 'ng-flamelink';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -25,6 +26,7 @@ import { FlamelinkModule, FLContentModule, FLStorageModule } from 'ng-flamelink'
     ),
     FLContentModule,
     FLStorageModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
