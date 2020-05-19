@@ -11,17 +11,8 @@
   </div>
 </section>
 
-<div class="container">
 
-  <div class="box" *ngFor="let project of projects | async">
-    {{ project.dateTime }}
-    <h1 class="title"> {{ project.title }}</h1>
-    <h2 class="subtitle"> {{project.summary}}</h2>
-
-    <div  [innerHtml]="project.content"></div>
-    <hr>
-  </div>
-</div>
+<router-outlet></router-outlet>
 
 <footer class="footer">
   <div class="content has-text-centered">
