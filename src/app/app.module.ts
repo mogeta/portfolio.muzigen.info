@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { BlogComponent } from './blog/blog.component';
 import { TubeDocComponent } from './tube-doc/tube-doc.component';
 import {YouTubePlayerModule} from '@angular/youtube-player';
+import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
     AppComponent,
     BlogComponent,
-    TubeDocComponent
+    TubeDocComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
