@@ -5,10 +5,13 @@ import { AppComponent } from './app.component';
 import { FlamelinkModule, FLContentModule, FLStorageModule } from 'ng-flamelink';
 import { AppRoutingModule } from './app-routing.module';
 import { BlogComponent } from './blog/blog.component';
+import { TubeDocComponent } from './tube-doc/tube-doc.component';
+import {YouTubePlayerModule} from '@angular/youtube-player';
 @NgModule({
   declarations: [
     AppComponent,
-    BlogComponent
+    BlogComponent,
+    TubeDocComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +32,7 @@ import { BlogComponent } from './blog/blog.component';
     FLContentModule,
     FLStorageModule,
     AppRoutingModule,
+    YouTubePlayerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

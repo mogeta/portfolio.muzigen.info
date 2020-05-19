@@ -1,0 +1,21 @@
+
+<div class="container">
+
+  <div class="box" *ngFor="let project of projects | async">
+    <div class="columns">
+      <div class="column is-7">
+        <youtube-player videoId="{{project.youtubeid}}"></youtube-player>
+      </div>
+      <div class="column is-5">
+        <div class="content"  [innerHtml]="project.doc"></div>
+      </div>
+    </div>
+
+<!--    {{ project.dateTime }}-->
+<!--    <h1 class="title"> {{ project.title }}</h1>-->
+<!--    <h2 class="subtitle"> {{project.summary}}</h2>-->
+
+<!--    <div class="content"  [innerHtml]="project.content"></div>-->
+<!--    <hr>-->
+  </div>
+</div>
