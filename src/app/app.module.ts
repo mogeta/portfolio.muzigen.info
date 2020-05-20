@@ -27,7 +27,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
           projectId: 'portfolio-14ea4',
           storageBucket: 'portfolio-14ea4.appspot.com',
           messagingSenderId: '573446684696',
-          appId: '1:573446684696:web:fffb085c0e115d45a5036d'
+          appId: '1:573446684696:web:fffb085c0e115d45a5036d',
+          measurementId: 'G-3PB77BL3YR'
         }
       }
     ),
