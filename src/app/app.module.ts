@@ -8,12 +8,14 @@ import { BlogComponent } from './blog/blog.component';
 import { TubeDocComponent } from './tube-doc/tube-doc.component';
 import {YouTubePlayerModule} from '@angular/youtube-player';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { YouTubePlayerComponent } from './you-tube-player/you-tube-player.component';
 @NgModule({
   declarations: [
     AppComponent,
     BlogComponent,
     TubeDocComponent,
-    DashboardComponent
+    DashboardComponent,
+    YouTubePlayerComponent
   ],
   imports: [
     BrowserModule,
